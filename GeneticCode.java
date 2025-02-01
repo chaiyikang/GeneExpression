@@ -1,0 +1,71 @@
+import java.util.HashMap;
+
+public class GeneticCode {
+    public static final HashMap<String, String> geneticCode = new HashMap<>();
+    static {
+        geneticCode.put("UUU", "Phenylalanine");
+        geneticCode.put("UUC", "Phenylalanine");
+        geneticCode.put("UUA", "Leucine");
+        geneticCode.put("UUG", "Leucine");
+        geneticCode.put("CUU", "Leucine");
+        geneticCode.put("CUC", "Leucine");
+        geneticCode.put("CUA", "Leucine");
+        geneticCode.put("CUG", "Leucine");
+        geneticCode.put("AUU", "Isoleucine");
+        geneticCode.put("AUC", "Isoleucine");
+        geneticCode.put("AUA", "Isoleucine");
+        geneticCode.put("AUG", "Methionine"); // Start codon
+        geneticCode.put("GUU", "Valine");
+        geneticCode.put("GUC", "Valine");
+        geneticCode.put("GUA", "Valine");
+        geneticCode.put("GUG", "Valine");
+        geneticCode.put("UCU", "Serine");
+        geneticCode.put("UCC", "Serine");
+        geneticCode.put("UCA", "Serine");
+        geneticCode.put("UCG", "Serine");
+        geneticCode.put("CCU", "Proline");
+        geneticCode.put("CCC", "Proline");
+        geneticCode.put("CCA", "Proline");
+        geneticCode.put("CCG", "Proline");
+        geneticCode.put("ACU", "Threonine");
+        geneticCode.put("ACC", "Threonine");
+        geneticCode.put("ACA", "Threonine");
+        geneticCode.put("ACG", "Threonine");
+        geneticCode.put("GCU", "Alanine");
+        geneticCode.put("GCC", "Alanine");
+        geneticCode.put("GCA", "Alanine");
+        geneticCode.put("GCG", "Alanine");
+        geneticCode.put("UAU", "Tyrosine");
+        geneticCode.put("UAC", "Tyrosine");
+        geneticCode.put("UAA", "Stop");
+        geneticCode.put("UAG", "Stop");
+        geneticCode.put("CAU", "Histidine");
+        geneticCode.put("CAC", "Histidine");
+        geneticCode.put("CAA", "Glutamine");
+        geneticCode.put("CAG", "Glutamine");
+        geneticCode.put("AAU", "Asparagine");
+        geneticCode.put("AAC", "Asparagine");
+        geneticCode.put("AAA", "Lysine");
+        geneticCode.put("AAG", "Lysine");
+        geneticCode.put("GAU", "Aspartic acid");
+        geneticCode.put("GAC", "Aspartic acid");
+        geneticCode.put("GAA", "Glutamic acid");
+        geneticCode.put("GAG", "Glutamic acid");
+        geneticCode.put("UGU", "Cysteine");
+        geneticCode.put("UGC", "Cysteine");
+        geneticCode.put("UGA", "Stop");
+        geneticCode.put("UGG", "Tryptophan");
+        geneticCode.put("CGU", "Arginine");
+        geneticCode.put("CGC", "Arginine");
+        geneticCode.put("CGA", "Arginine");
+        geneticCode.put("CGG", "Arginine");
+        geneticCode.put("AGU", "Serine");
+        geneticCode.put("AGC", "Serine");
+        geneticCode.put("AGA", "Arginine");
+        geneticCode.put("AGG", "Arginine");
+        geneticCode.put("GGU", "Glycine");
+        geneticCode.put("GGC", "Glycine");
+        geneticCode.put("GGA", "Glycine");
+        geneticCode.put("GGG", "Glycine");
+    }
+}
